@@ -8,6 +8,7 @@ export default defineConfig({
     sourcemap: true,
     clean: true,
     external: [
+        "@elizaos/core",
       'net',
       'tls',
       'crypto',
